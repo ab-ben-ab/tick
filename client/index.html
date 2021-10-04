@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T.T.T</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="status">
+      <h4 class="hide">ANNOUNCING TURNS AND STATE</h4>
+    </div>
+    <div class="container">
+      <div id="gameinfo">
+        <div id="rounds"><h5>Round 1</h5></div>
+        <div id="score">
+          <div class="player-score">
+            <h5 id="xscore">x wins: 0</h5>
+          </div>
+          <div class="player-score"><h5 id="oscore">o wins: 0</h5></div>
+          <div class="player-score"><h5 id="ties">Ties: 0</h5></div>
+        </div>
+      </div>
+      <div id="board">
+        <div id="p1" class="tile"></div>
+        <div id="p2" class="tile"></div>
+        <div id="p3" class="tile"></div>
+        <div id="p4" class="tile"></div>
+        <div id="p5" class="tile"></div>
+        <div id="p6" class="tile"></div>
+        <div id="p7" class="tile"></div>
+        <div id="p8" class="tile"></div>
+        <div id="p9" class="tile"></div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.socket.io/4.2.0/socket.io.min.js"
+    integrity="sha384-PiBR5S00EtOj2Lto9Uu81cmoyZqR57XcOna1oAuVuIEjzj0wpqDVfD0JA9eXlRsj"
+    crossorigin="anonymous"
+  ></script>
+  <script type="module" src="./js/app.js"></script>
+</html>
