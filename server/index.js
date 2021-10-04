@@ -2,7 +2,7 @@ const server = require("http").createServer();
 
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://127.0.0.1:5500",
+    origin: "https://tickt.vercel.app",
     methods: ["GET", "POST"],
   },
 });

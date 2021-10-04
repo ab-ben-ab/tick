@@ -37,7 +37,7 @@ function updateStatus(message) {
   }, 2000);
 }
 
-const socket = io("http://localhost:3000");
+const socket = io("https://embar.herokuapp.com/");
 
 // socket events
 socket.on("your_turn", () => updateStatus("Your turn"));
